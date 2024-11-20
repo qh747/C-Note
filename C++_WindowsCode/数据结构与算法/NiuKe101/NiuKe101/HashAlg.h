@@ -18,3 +18,18 @@ public:
 	int solve(vector<int>& numbers);
 	void demo();
 };
+
+// BM3 - 数组中只出现一次的两个数字
+class FindNumsAppearOnce_Solution 
+{
+public:
+	vector<int> FindNumsAppearOnce(vector<int>& nums);
+	void demo();
+};
+
+// BM4 - 缺失的第一个正整数
+class minNumberDisappeared_Solution {
+public:
+	int minNumberDisappeared(vector<int>& nums);
+	void demo();
+};

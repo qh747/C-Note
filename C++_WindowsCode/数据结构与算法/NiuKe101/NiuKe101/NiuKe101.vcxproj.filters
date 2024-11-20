@@ -25,6 +25,15 @@
     <Filter Include="哈希">
       <UniqueIdentifier>{44d84ebb-6ed5-41f8-93b9-5b476d4c2e27}</UniqueIdentifier>
     </Filter>
+    <Filter Include="递归/回溯">
+      <UniqueIdentifier>{c6017afb-f6c4-49fe-9223-d5d8759eeda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="动态规划">
+      <UniqueIdentifier>{d2b07c29-9c80-4697-ab13-0941ac39c506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="贪心算法">
+      <UniqueIdentifier>{15393fe8-a086-4417-9b79-bb6974294fe3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +54,15 @@
     <ClCompile Include="HashAlg.cpp">
       <Filter>哈希</Filter>
     </ClCompile>
+    <ClCompile Include="RecursionAlg.cpp">
+      <Filter>递归/回溯</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicPrograming.cpp">
+      <Filter>动态规划</Filter>
+    </ClCompile>
+    <ClCompile Include="GreedyAlgorithm.cpp">
+      <Filter>贪心算法</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
@@ -61,6 +79,15 @@
     </ClInclude>
     <ClInclude Include="HashAlg.h">
       <Filter>哈希</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionAlg.h">
+      <Filter>递归/回溯</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicPrograming.h">
+      <Filter>动态规划</Filter>
+    </ClInclude>
+    <ClInclude Include="GreedyAlgorithm.h">
+      <Filter>贪心算法</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

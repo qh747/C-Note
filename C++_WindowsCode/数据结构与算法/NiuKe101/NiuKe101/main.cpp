@@ -3,6 +3,9 @@
 #include "BinaryTree.h"
 #include "HeapStackQueue.h"
 #include "HashAlg.h"
+#include "RecursionAlg.h"
+#include "DynamicPrograming.h"
+#include "GreedyAlgorithm.h"
 
 // 链表测试函数
 void fundLinkTest() 
@@ -188,8 +191,108 @@ void heapStackQueueTest()
 void haspTest()
 {
 	// BM2 - 数组中出现次数超过一半的数字
-	MoreThanHalfNum_Solution solu;
+	// MoreThanHalfNum_Solution solu;
+	// solu.demo();
+
+	// BM3 - 数组中只出现一次的两个数字
+	// FindNumsAppearOnce_Solution solu;
+	// solu.demo();
+
+	// BM4 - 缺失的第一个正整数
+	// minNumberDisappeared_Solution solu;
+	// solu.demo();
+}
+
+// 递归/回溯测试函数
+void recursionTrackBackTest()
+{
+	// BM1 - 没有重复项数字的全排列
+	// Permute_Solution solu;
+	// solu.demo();
+
+	// BM2 - 有重复项数字的全排列
+	// PermuteUnique_Solution solu;
+	// solu.demo();
+
+	// BM3 - 岛屿数量
+	// IslandCount_Solution solu;
+	// solu.demo();
+
+	// BM4 - 字符串的排列
+	// Permutation_Solution solu;
+	// solu.demo();
+
+	// BM6 - 括号生成
+	// GenerateParenthesis_Solution solu;
+	// solu.demo();
+
+	// BM7 - 矩阵最长路径
+	// MaxPath_Solution solu;
+	// solu.demo();
+
+	// BM13 - 数字字符串转化成IP地址
+	// RestoreIpAddresses_Solution solu;
+	// solu.demo();
+}
+
+// 动态规划测试函数
+void dynamicProgrammingTest()
+{
+	// BM1 - 斐波拉契数列
+	// Fibonacci_Solution solu;
+	// solu.demo();
+
+	// BM2 - 跳台阶
+	// JumpFloor_Solution solu;
+	// solu.demo();
+
+	// BM3 - 最小花费爬楼梯
+	// MinCostClimbingStairs_Solution solu;
+	// solu.demo();
+
+	// BM4 - 最长公共子序列（二）
+	// LCS_Solution solu;
+	// solu.demo();
+
+	// BM5 - 最长公共子串
+	// LCS2_Solution solu;
+	// solu.demo();
+
+	// BM6 - 不同路径的数目（一）
+	// UniquePaths_Solution solu;
+	// solu.demo();
+
+	// BM7 - 矩阵的最小路径和
+	// class MinPathSum_Solution solu;
+	// solu.demo();
+
+	// BM8 - 把数字翻译成字符串
+	// class TransNum_Solution solu;
+	// solu.demo();
+
+	// BM9 - 兑换零钱（一）
+	// class MinMoney_Solution solu;
+	// solu.demo();
+
+	// BM10 - 最长上升子序列(一)
+	// class LIS_Solution solu;
+	// solu.demo();
+
+	// BM14 - 编辑距离（一）
+	// EditDistance_Solution solu;
+	// solu.demo();
+
+	// BM17 - 打家劫舍(一)
+	Rob_Solution solu;
 	solu.demo();
+}
+
+// 贪心算法测试函数
+void greedyAlgorithmTest()
+{
+	// BM12 - 最长回文子串
+	// class GetLongestPalindrome_Solution solu;
+	// solu.demo();
 }
 
 int main()
@@ -207,7 +310,16 @@ int main()
 	// heapStackQueueTest();
 
 	// 哈希测试函数
-	haspTest();
+	// haspTest();
+
+	// 递归/回溯测试函数
+	// recursionTrackBackTest();
+
+	// 动态规划测试函数
+	dynamicProgrammingTest();
+
+	// 贪心算法测试函数
+	// greedyAlgorithmTest();
 
 	return 0;
 }

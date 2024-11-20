@@ -125,17 +125,23 @@
   <ItemGroup>
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="BinaryTree.cpp" />
+    <ClCompile Include="DynamicPrograming.cpp" />
+    <ClCompile Include="GreedyAlgorithm.cpp" />
     <ClCompile Include="HashAlg.cpp" />
     <ClCompile Include="HeapStackQueue.cpp" />
     <ClCompile Include="LinkList.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RecursionAlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="DynamicPrograming.h" />
+    <ClInclude Include="GreedyAlgorithm.h" />
     <ClInclude Include="HashAlg.h" />
     <ClInclude Include="HeapStackQueue.h" />
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="RecursionAlg.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
